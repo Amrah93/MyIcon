@@ -1,0 +1,30 @@
+@import "../../setting/reset"
+
+// include общий
+
+@import "../../components/wrapper/wrapper.sass"
+
+// include страницы
+
+@import "../../components/new/new.sass"
+@import "../../components/form/form.sass"
+
+
+// Подключение стилей страницы
+
+@import "news-xxl.sass"
+
+@media screen and (max-width: 1460px)
+    @import "news-xl.sass"
+
+@media screen and (max-width: 1280px)
+    @import "news-l.sass"
+
+    @media screen and (max-width: 992px)
+    @import "news-m.sass"
+
+@media screen and (max-width: 768px)
+    @import "news-sm.sass"
+
+@media screen and (max-width: 520px)
+    @import "news-s.sass"

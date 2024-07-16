@@ -1,0 +1,32 @@
+@import "../../setting/reset"
+
+// include общий
+
+@import "../../components/wrapper/wrapper.sass"
+
+// include страницы
+
+// @import "../../components/new/new.sass"
+// @import "../../components/form/form.sass"
+
+
+// Подключение стилей страницы
+
+@import "cards-xxl.sass"
+
+@media screen and (max-width: 1460px)
+    @import "cards-xl.sass"
+
+@media screen and (max-width: 1280px)
+    @import "cards-l.sass"
+
+    
+    @media screen and (max-width: 992px)
+    @import "cards-m.sass"
+
+    
+@media screen and (max-width: 768px)
+    @import "cards-sm.sass"
+
+@media screen and (max-width: 520px)
+    @import "cards-s.sass"

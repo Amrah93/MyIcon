@@ -1,0 +1,28 @@
+@import "../../setting/reset.scss"
+
+// include общий
+
+@import "../../include/wrapper/wrapper.sass"
+
+// include страницы
+
+@import "../../include/review/review.sass"
+
+// Подключение стилей страницы
+
+@import "reviews-xxl.sass"
+
+@media screen and (max-width: 1460px)
+    @import "reviews-xl.sass"
+
+@media screen and (max-width: 1280px)
+    @import "reviews-l.sass"
+
+@media screen and (max-width: 992px)
+    @import "reviews-m.sass"
+
+@media screen and (max-width: 768px)
+    @import "reviews-sm.sass"
+
+@media screen and (max-width: 520px)
+    @import "reviews-s.sass"
